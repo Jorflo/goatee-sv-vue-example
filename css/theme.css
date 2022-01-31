@@ -1,0 +1,87 @@
+:root {
+    --color--blue: #004de8;
+    --color--dark--blue: #00205b;
+    --color--light: #F6F6F6;
+    --color--dark: rgba($color: #000000, $alpha: 0.8);
+    --color--white: #FFFFFF;
+    --color--black: #000000;
+    --color--mild--blue: #F0F4FE;
+    --color--mild--blue--hover: rgba($color: #F0F4FE, $alpha: .68);
+    --color--disabled: #757575;
+    --color--error: #C8102E;
+    --color--error--hover: #91091f;
+    --color--error--background: #FBEEF0;
+    --color--success: #005505;
+    --color--success--background: #EDF3EE;
+    --color--alert: #FFFC8D;
+    --color--information: #E6EDFD;
+    --color--information--hover: #D9E5FF;
+    --color--information--stroke--outline: #BFD2F9;
+    --color--text--main: #000000;
+    --color--text--supporting: rgba(0, 0, 0, 0.68);
+    --color--text--disabled: #757575;
+    --color--stroke: rgba(var(--color--text--main), 0.98);
+    --color--stroke--outline: rgba(var(--color--text--main), 0.15);
+    --color--text--main--dark: #FFFFFF;
+    --rounded--corner: 8px;
+    --spacing--section: 80px;
+    --spacing--block: 40px;
+    --spacing--related: 20px;
+    --spacing--close--related: 10px;
+    --color--background--current: var(--color--primary--white);
+    --color--text--current: var(--color--text--main);
+    --color--text: var(--color--black);
+    --color--text--secondary: var(--color--text--supporting);
+    --color--primary: var(--color--blue);
+    --color--secondary: var(--color--white);
+    --color--mild: var(--color--mild--blue);
+    --color--background: var(--color--white);
+    --color--primary--hover: var(--color--dark--blue);
+    --color--secondary--hover: var(--color--light);
+    --color--mild--hover: var(--color--mild--blue--hover);
+  }
+  
+
+  @font-face {
+	font-family: 'Norway Sans Text';
+	src: url('https://www.norway-lights.com/includes/public/fonts/norwaysanstext-regular-webfont.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Norway Sans Text';
+	src: url('https://www.norway-lights.com/includes/public/fonts/norwaysanstext-italic-webfont.woff2') format('woff2');
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Norway Sans Text';
+	src: url('https://www.norway-lights.com/includes/public/fonts/norwaysanstext-bold-webfont.woff2') format('woff2');
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'Norway Sans Text';
+	src: url('https://www.norway-lights.comhttps://www.norway-lights.com/includes/public/fonts/norwaysanstext-bolditalic-webfont.woff2') format('woff2');
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Norway Sans Display - Fine';
+	src: url('https://www.norway-lights.com/includes/public/fonts/norwaysansdisplay-fine-webfont.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Norway Sans Display - Regular';
+	src: url('https://www.norway-lights.com/includes/public/fonts/norwaysansdisplay-regular-webfont.woff2') format('woff2');
+}
+
+* {
+    font-family: 'Norway Sans Text';
+}
+
+body {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}

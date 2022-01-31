@@ -1,0 +1,17 @@
+{
+  "name": "component-implementation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@visitnorway/yggdrasil": "^1.0.30",
+    "goatee": "^1.3.11",
+    "requirejs-vue": "^1.1.5"
+  }
+}
