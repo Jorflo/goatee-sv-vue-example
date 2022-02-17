@@ -3,6 +3,8 @@ node_modules/lodash
 node_modules/requirejs
 node_modules/goatee/test_library/node_modules
 node_modules/test_library/node_modules
+node_modules/test_react/node_modules
+
 
 # local env files
 .env.local
